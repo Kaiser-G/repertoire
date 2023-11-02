@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #FFA500;
+    /* Couleur orange */
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#company-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    /* Marge à gauche et à droite */
+    padding: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* Centre le formulaire horizontalement */
+}
+
+/* Ajoutez ces styles pour augmenter l'espace entre les blocs */
+label,
+input,
+select,
+textarea {
+    margin-bottom: 25px;
+    /* Ajoute de l'espace en bas de chaque élément */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    /* Marge en haut et en bas */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #FFA500;
+    /* Changement de couleur de la bordure en focus */
+}
+
+/* Styles pour le sélecteur de date */
+input[type="date"] {
+    padding: 10px;
+    /* Ajoute de la marge interne pour le rendre plus grand */
+    border: 1px solid #ccc;
+    /* Ajoute une bordure */
+    border-radius: 3px;
+    outline: none;
+    /* Supprime la bordure de focus */
+    transition: border-color 0.3s;
+    /* Transition en douceur sur la couleur de la bordure */
+
+    /* Personnalisez davantage les styles de votre sélecteur de date si nécessaire */
+}
+
+
+
+
+/* Styles pour aligner horizontalement les boutons radio */
+.radio-container {
+    display: flex;
+    /* Utilise un conteneur flexible pour aligner les boutons radio */
+    align-items: center;
+    /* Centre les éléments verticalement dans le conteneur */
+}
+
+input[type="radio"] {
+    display: inline-block;
+    /* Affiche les boutons radio en ligne */
+    margin-right: 10px;
+    /* Ajoute de l'espace entre les boutons radio */
+}
+
+button {
+    background-color: #FFA500;
+    /* Couleur orange */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8C00;
+    /* Couleur orange plus foncée au survol */
+}

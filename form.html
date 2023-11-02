@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="" class="logo">Formulaire vierge</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="form.html">formulaire vierge</a></li>
+            <li><a href="fiches.html">Répertoire</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+
+
+
+    <h1>Formulaire à remplir</h1>
+
+
+
+    <form id="company-form">
+        <label for="company-name">Nom de la société</label>
+        <input type="text" id="company-name" name="company-name" required>
+
+
+        <label for="company-mail">Mail</label>
+        <input type="email" id="company-mail" name="company-mail" required>
+
+
+        <label for="company-tel">Téléphone</label>
+        <input type="tel" id="company-tel" name="company-tel" required>
+
+
+        <label for="company-ad">Adresse de la société</label>
+        <input type="text" id="company-ad" name="company-ad" required>
+
+
+
+        <label for="company-site">Site Web de la société</label>
+        <input type="text" id="company-site" name="company-site" required>
+
+
+
+        <label for="company-contact">Date de contact</label>
+        <input type="date" id="contact" name="contact" required>
+
+
+        <label for="company-name">Contacté par :</label>
+        <select>
+            <option value="attente"></option>
+            <option value="mail">Mail</option>
+            <option value="tel">Téléphone</option>
+            <option value="en-face">En face à face</option>
+        </select>
+
+
+        <label for="company-response">Réponse de la société</label>
+        <div class="radio-container">
+            <input type="radio" name="response" value="oui" id="oui" /> <label for="oui">Oui</label><br />
+            <input type="radio" name="response" value="non" id="non" /> <label for="non">Non</label><br />
+            <input type="radio" name="response" value="pas de reponse" id="pas de reponse" /> <label
+                for="pas de reponse">Pas de réponse</label><br />
+            <input type="radio" name="response" value="doit me recontacter" id="doit me recontacter" /> <label
+                for="doit me recontacter">Doit me recontacter</label>
+        </div>
+        <label for="company-suite">Suite à donner :</label>
+
+        <textarea name="suite" id="suite" rows="10" cols="50">
+Et maintenant ?
+        
+        		</textarea>
+
+
+        <label for="company-notes">Notes :</label>
+
+        <textarea name="notes" id="notes" rows="10" cols="50">
+        Notes
+        
+        		</textarea>
+
+
+        <!-- Ajoutez d'autres champs ici -->
+
+        <button type="submit">Enregistrer</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

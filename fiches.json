@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Nom de la société 1",
+    "mail": "societe1@example.com",
+    "tel": "123-456-7890",
+    "ad": "Adresse de la société 1",
+    "site": "www.societe1.com",
+    "contact": "2023-10-30",
+    "contactedBy": "mail",
+    "response": "oui",
+    "suite": "Suite de la société 1",
+    "notes": "Notes pour société 1"
+  },
+  {
+    "name": "Nom de la société 2",
+    "mail": "societe2@example.com",
+    "tel": "987-654-3210",
+    "ad": "Adresse de la société 2",
+    "site": "www.societe2.com",
+    "contact": "2023-10-31",
+    "contactedBy": "tel",
+    "response": "non",
+    "suite": "Suite de la société 2",
+    "notes": "Notes pour société 2"
+  }
+]
